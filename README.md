@@ -20,3 +20,5 @@ GET http://localhost:8080/api/account/{accountId}/balance
 GET http://localhost:8080/example
 
 GET http://localhost:8080/api/accounts
+
+GET http://localhost:8080/status
