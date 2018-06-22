@@ -1,0 +1,9 @@
+{
+    "transactionId": "1000",
+    "orderId": "1000",
+    "accountId": "A1000",
+    "transactionDate": "2018-06-22T00:18:58.965",
+    "transactionType": "debit",
+    "amount": 100,
+    "currency": "SEK"
+}

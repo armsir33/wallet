@@ -1,0 +1,17 @@
+[
+	{
+		"id" : "A1000",
+ 		"name" : "Messi",
+ 		"balance" : 1000
+	},
+	{
+		"id" : "A2000",
+		"name" : "Ronaldo",
+        "balance" : 2000
+	},
+	{
+		"id" : "A3000",
+ 		"name" : "Xavi",
+        "balance" : 3000
+	}
+]

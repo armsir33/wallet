@@ -1,0 +1,27 @@
+apply plugin: 'application'
+apply plugin: 'java'
+
+mainClassName = "com.gears.leo.WalletMain"
+
+repositories {
+	jcenter()
+}
+
+dependencies {
+	compile group: 'org.eclipse.jetty', name: 'jetty-webapp', version: '9.4.11.v20180605'
+
+	compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.7'
+
+	compile group: 'org.apache.cxf', name: 'cxf-rt-frontend-jaxrs', version: '3.2.4'
+	compile group: 'org.apache.cxf', name: 'cxf-rt-transports-http', version: '3.2.4'
+	compile group: 'org.apache.cxf', name: 'cxf-rt-transports-http-jetty', version: '3.2.4'
+
+	compile group: 'com.fasterxml.jackson.jaxrs', name: 'jackson-jaxrs-json-provider', version: '2.9.6'
+	compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.9.6'
+	
+	compile group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl', version: '2.11.0'
+	compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.11.0'
+	compile group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl', version: '2.11.0'
+	
+	testCompile group: 'org.apache.cxf', name: 'cxf-rt-rs-client', version: '3.2.4'
+}
